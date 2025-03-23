@@ -139,6 +139,8 @@ const startKnop = document.getElementById("startKnop");
 function laadVraag() {
     let huidigeVraag;
 
+    // chatgpt
+    // waarom lukt de if else statement niet? ik wil dat de volgende vraag komt als de eerste is beantwoord.
     if (vraagNummer === 1) huidigeVraag = vraag1;
     else if (vraagNummer === 2) huidigeVraag = vraag2;
     else if (vraagNummer === 3) huidigeVraag = vraag3;
