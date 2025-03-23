@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizspel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js" defer></script>
+    <link rel="icon" href="images/achtergrond.png">
+</head>
+
+<body id="bodySpel">
+    <audio id="correct" src="./sounds/correct.mp3"></audio>
+    <audio id="wrong" src="./sounds/wrong.mp3"></audio>
+    <header>
+        <h2 id="h2Score">Score 0/10</h2>
+        <h1>Raad de stad!</h1>
+        <div id="startScreen">
+            <button id="startKnop">Start het spel</button>
+        </div>
+    </header>
+    <main>
+        <div id="gameScreen">
+            <article>
+
+                <img src="#" alt="afbeelding">
+                <div id="opties">
+                    <h2 id="h2Spel">Welke stad is hier afgebeeld?</h2>
+                    <button id="optieA"></button>
+                    <button id="optieB"></button>
+                    <button id="optieC"></button>
+                    <button id="optieD"></button>
+                </div>
+            </article>
+            <button id="skipKnop">skip</button>
+            <button id="terugKnop">Begin opnieuw</button>
+            <h2 id="eindScore">Eindscore</h2>
+        </div>
+    </main>
+    <footer>
+        <p id="visually-hidden">@copyright</p>
+    </footer>
+</body>
+
+</html>
